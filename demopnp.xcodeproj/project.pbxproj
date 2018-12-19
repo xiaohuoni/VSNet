@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA01887D21C0B59C004B33F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01887C21C0B59C004B33F1 /* AppDelegate.m */; };
-		AA01888021C0B59C004B33F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01887F21C0B59C004B33F1 /* ViewController.m */; };
+		AA00470821CA3D6700C0A305 /* MyGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA00470621CA3D6700C0A305 /* MyGLViewController.mm */; };
+		AA00470A21CA410200C0A305 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00470921CA410200C0A305 /* GLKit.framework */; };
+		AA00470C21CA413900C0A305 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00470B21CA413800C0A305 /* OpenGLES.framework */; };
+		AA01887D21C0B59C004B33F1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA01887C21C0B59C004B33F1 /* AppDelegate.mm */; };
+		AA01888021C0B59C004B33F1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA01887F21C0B59C004B33F1 /* ViewController.mm */; };
 		AA01888321C0B59C004B33F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01888121C0B59C004B33F1 /* Main.storyboard */; };
 		AA01888521C0B59E004B33F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA01888421C0B59E004B33F1 /* Assets.xcassets */; };
 		AA01888821C0B59E004B33F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01888621C0B59E004B33F1 /* LaunchScreen.storyboard */; };
 		AA01888B21C0B59E004B33F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01888A21C0B59E004B33F1 /* main.m */; };
+		AA0188A321C0B5C9004B33F1 /* IJKSDLGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01889921C0B5C9004B33F1 /* IJKSDLGLShader.m */; };
+		AA0188A421C0B5C9004B33F1 /* IJKSDLGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01889C21C0B5C9004B33F1 /* IJKSDLGLView.m */; };
+		AA0188A521C0B5C9004B33F1 /* IJKSDLGLRenderI420.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01889D21C0B5C9004B33F1 /* IJKSDLGLRenderI420.m */; };
+		AA0188A621C0B5C9004B33F1 /* VSNetSendCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0188A021C0B5C9004B33F1 /* VSNetSendCommand.m */; };
+		AA0188A721C0B5C9004B33F1 /* libvsNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0188A221C0B5C9004B33F1 /* libvsNet.a */; };
+		AA0188AA21C0B60C004B33F1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0188A921C0B60C004B33F1 /* libz.tbd */; };
+		AA0188AC21C0B615004B33F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0188AB21C0B615004B33F1 /* AVFoundation.framework */; };
+		AA0188AE21C0B620004B33F1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0188AD21C0B620004B33F1 /* libiconv.tbd */; };
+		AA0188B021C0B62B004B33F1 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0188AF21C0B62B004B33F1 /* libbz2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA00470621CA3D6700C0A305 /* MyGLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyGLViewController.mm; sourceTree = "<group>"; };
+		AA00470721CA3D6700C0A305 /* MyGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGLViewController.h; sourceTree = "<group>"; };
+		AA00470921CA410200C0A305 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AA00470B21CA413800C0A305 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		AA01887821C0B59C004B33F1 /* demopnp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demopnp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA01887B21C0B59C004B33F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AA01887C21C0B59C004B33F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA01887C21C0B59C004B33F1 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		AA01887E21C0B59C004B33F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA01887F21C0B59C004B33F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA01887F21C0B59C004B33F1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		AA01888221C0B59C004B33F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA01888421C0B59E004B33F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA01888721C0B59E004B33F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA01888921C0B59E004B33F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA01888A21C0B59E004B33F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA01889221C0B5C9004B33F1 /* VSNetSendCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNetSendCommand.h; sourceTree = "<group>"; };
+		AA01889421C0B5C9004B33F1 /* PPPPDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPPDefine.h; sourceTree = "<group>"; };
+		AA01889521C0B5C9004B33F1 /* VSNetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNetProtocol.h; sourceTree = "<group>"; };
+		AA01889621C0B5C9004B33F1 /* cmdhead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdhead.h; sourceTree = "<group>"; };
+		AA01889721C0B5C9004B33F1 /* VSNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNet.h; sourceTree = "<group>"; };
+		AA01889921C0B5C9004B33F1 /* IJKSDLGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKSDLGLShader.m; sourceTree = "<group>"; };
+		AA01889A21C0B5C9004B33F1 /* IJKSDLGLRenderI420.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLGLRenderI420.h; sourceTree = "<group>"; };
+		AA01889B21C0B5C9004B33F1 /* IJKSDLGLRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLGLRender.h; sourceTree = "<group>"; };
+		AA01889C21C0B5C9004B33F1 /* IJKSDLGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKSDLGLView.m; sourceTree = "<group>"; };
+		AA01889D21C0B5C9004B33F1 /* IJKSDLGLRenderI420.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKSDLGLRenderI420.m; sourceTree = "<group>"; };
+		AA01889E21C0B5C9004B33F1 /* IJKSDLGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLGLShader.h; sourceTree = "<group>"; };
+		AA01889F21C0B5C9004B33F1 /* IJKSDLGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLGLView.h; sourceTree = "<group>"; };
+		AA0188A021C0B5C9004B33F1 /* VSNetSendCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNetSendCommand.m; sourceTree = "<group>"; };
+		AA0188A221C0B5C9004B33F1 /* libvsNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvsNet.a; sourceTree = "<group>"; };
+		AA0188A921C0B60C004B33F1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AA0188AB21C0B615004B33F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA0188AD21C0B620004B33F1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		AA0188AF21C0B62B004B33F1 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA00470C21CA413900C0A305 /* OpenGLES.framework in Frameworks */,
+				AA00470A21CA410200C0A305 /* GLKit.framework in Frameworks */,
+				AA0188B021C0B62B004B33F1 /* libbz2.tbd in Frameworks */,
+				AA0188AE21C0B620004B33F1 /* libiconv.tbd in Frameworks */,
+				AA0188AC21C0B615004B33F1 /* AVFoundation.framework in Frameworks */,
+				AA0188AA21C0B60C004B33F1 /* libz.tbd in Frameworks */,
+				AA0188A721C0B5C9004B33F1 /* libvsNet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +83,10 @@
 		AA01886F21C0B59C004B33F1 = {
 			isa = PBXGroup;
 			children = (
+				AA01889121C0B5C9004B33F1 /* VSNet */,
 				AA01887A21C0B59C004B33F1 /* demopnp */,
 				AA01887921C0B59C004B33F1 /* Products */,
+				AA0188A821C0B60B004B33F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +101,12 @@
 		AA01887A21C0B59C004B33F1 /* demopnp */ = {
 			isa = PBXGroup;
 			children = (
+				AA00470721CA3D6700C0A305 /* MyGLViewController.h */,
+				AA00470621CA3D6700C0A305 /* MyGLViewController.mm */,
 				AA01887B21C0B59C004B33F1 /* AppDelegate.h */,
-				AA01887C21C0B59C004B33F1 /* AppDelegate.m */,
+				AA01887C21C0B59C004B33F1 /* AppDelegate.mm */,
 				AA01887E21C0B59C004B33F1 /* ViewController.h */,
-				AA01887F21C0B59C004B33F1 /* ViewController.m */,
+				AA01887F21C0B59C004B33F1 /* ViewController.mm */,
 				AA01888121C0B59C004B33F1 /* Main.storyboard */,
 				AA01888421C0B59E004B33F1 /* Assets.xcassets */,
 				AA01888621C0B59E004B33F1 /* LaunchScreen.storyboard */,
@@ -69,6 +114,64 @@
 				AA01888A21C0B59E004B33F1 /* main.m */,
 			);
 			path = demopnp;
+			sourceTree = "<group>";
+		};
+		AA01889121C0B5C9004B33F1 /* VSNet */ = {
+			isa = PBXGroup;
+			children = (
+				AA01889221C0B5C9004B33F1 /* VSNetSendCommand.h */,
+				AA01889321C0B5C9004B33F1 /* inc */,
+				AA01889821C0B5C9004B33F1 /* IJKSDLGL */,
+				AA0188A021C0B5C9004B33F1 /* VSNetSendCommand.m */,
+				AA0188A121C0B5C9004B33F1 /* lib */,
+			);
+			path = VSNet;
+			sourceTree = "<group>";
+		};
+		AA01889321C0B5C9004B33F1 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				AA01889421C0B5C9004B33F1 /* PPPPDefine.h */,
+				AA01889521C0B5C9004B33F1 /* VSNetProtocol.h */,
+				AA01889621C0B5C9004B33F1 /* cmdhead.h */,
+				AA01889721C0B5C9004B33F1 /* VSNet.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		AA01889821C0B5C9004B33F1 /* IJKSDLGL */ = {
+			isa = PBXGroup;
+			children = (
+				AA01889921C0B5C9004B33F1 /* IJKSDLGLShader.m */,
+				AA01889A21C0B5C9004B33F1 /* IJKSDLGLRenderI420.h */,
+				AA01889B21C0B5C9004B33F1 /* IJKSDLGLRender.h */,
+				AA01889C21C0B5C9004B33F1 /* IJKSDLGLView.m */,
+				AA01889D21C0B5C9004B33F1 /* IJKSDLGLRenderI420.m */,
+				AA01889E21C0B5C9004B33F1 /* IJKSDLGLShader.h */,
+				AA01889F21C0B5C9004B33F1 /* IJKSDLGLView.h */,
+			);
+			path = IJKSDLGL;
+			sourceTree = "<group>";
+		};
+		AA0188A121C0B5C9004B33F1 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AA0188A221C0B5C9004B33F1 /* libvsNet.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		AA0188A821C0B60B004B33F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA00470B21CA413800C0A305 /* OpenGLES.framework */,
+				AA00470921CA410200C0A305 /* GLKit.framework */,
+				AA0188AF21C0B62B004B33F1 /* libbz2.tbd */,
+				AA0188AD21C0B620004B33F1 /* libiconv.tbd */,
+				AA0188AB21C0B615004B33F1 /* AVFoundation.framework */,
+				AA0188A921C0B60C004B33F1 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA01888021C0B59C004B33F1 /* ViewController.m in Sources */,
+				AA0188A621C0B5C9004B33F1 /* VSNetSendCommand.m in Sources */,
+				AA01888021C0B59C004B33F1 /* ViewController.mm in Sources */,
 				AA01888B21C0B59E004B33F1 /* main.m in Sources */,
-				AA01887D21C0B59C004B33F1 /* AppDelegate.m in Sources */,
+				AA0188A321C0B5C9004B33F1 /* IJKSDLGLShader.m in Sources */,
+				AA0188A421C0B5C9004B33F1 /* IJKSDLGLView.m in Sources */,
+				AA00470821CA3D6700C0A305 /* MyGLViewController.mm in Sources */,
+				AA0188A521C0B5C9004B33F1 /* IJKSDLGLRenderI420.m in Sources */,
+				AA01887D21C0B59C004B33F1 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +312,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -263,8 +372,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -285,14 +396,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZF5JT327SN;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = demopnp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohu.demopnp;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VSNet/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.DvaStarter213;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,14 +422,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZF5JT327SN;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = demopnp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohu.demopnp;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VSNet/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.DvaStarter213;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

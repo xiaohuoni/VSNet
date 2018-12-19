@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IJKSDLGLView.h"
+#import "MyGLViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+     
+}
 
 
 @end
